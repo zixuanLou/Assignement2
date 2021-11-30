@@ -1,0 +1,16 @@
+.grid-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dropdown-nav {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+  }
+.dropbtn {width: 100%;}
+.dropdown-content a {display: block;}
+.dropdown-nav:hover .dropdown-content {display: block;}
